@@ -1,9 +1,9 @@
 function Message({ message }) {
   return (
-    <li className={`message ${message.user === 'Nicolas' ? 'mine' : 'other'}`}>
+    <li className={`message ${message.user === "Nicolas" ? "mine" : "other"}`}>
       {message.text}
     </li>
-  )
+  );
 }
 
-export default Message
+export default Message;
